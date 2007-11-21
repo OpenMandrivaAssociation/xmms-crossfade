@@ -1,5 +1,5 @@
 %define name xmms-crossfade
-%define version 0.3.12
+%define version 0.3.13
 %define release %mkrel 1
 %define build_audacious 1
 
@@ -15,7 +15,7 @@ BuildRequires: libsamplerate-devel
 BuildRequires: automake1.8
 Requires:      xmms
 Url:		http://www.eisenlohr.org/xmms-crossfade/news.html
-Source:        http://www.eisenlohr.org/xmms-crossfade/%name-%version.tar.bz2
+Source:        http://www.eisenlohr.org/xmms-crossfade/%name-%version.tar.gz
 BuildRoot:     %_tmppath/%name-buildroot
 
 
