@@ -1,5 +1,5 @@
 %define name xmms-crossfade
-%define version 0.3.13
+%define version 0.3.14
 %define release %mkrel 1
 %define build_audacious 1
 
