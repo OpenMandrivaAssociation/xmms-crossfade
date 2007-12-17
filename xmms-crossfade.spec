@@ -16,7 +16,6 @@ BuildRequires: automake1.8
 Requires:      xmms
 Url:		http://www.eisenlohr.org/xmms-crossfade/news.html
 Source:        http://www.eisenlohr.org/xmms-crossfade/%name-%version.tar.gz
-BuildRoot:     %_tmppath/%name-buildroot
 
 
 %description
