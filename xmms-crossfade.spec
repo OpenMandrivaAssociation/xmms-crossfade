@@ -1,6 +1,6 @@
 %define name xmms-crossfade
 %define version 0.3.14
-%define release %mkrel 2
+%define release %mkrel 3
 %define build_audacious 1
 
 Name:          %name
@@ -20,16 +20,15 @@ BuildRoot:     %_tmppath/%name-buildroot
 
 
 %description
-xmms-crossfade: XMMS Output Plugin for Crossfading / Continuous Output
-----------------------------------------------------------------------
+xmms-crossfade is an XMMS Output Plugin for Crossfading / Continuous Output.
 
-Features:
----------
-  * Crossfading
-  * Continuous output
-  * Gap-Killer: Some mp3-encoders produce small gaps of silence at the
-    beginning or end of the stream. They can automatically be detected
-    and removed.
+It features:
+
+* Crossfading
+* Continuous output
+* Gap-Killer: Some mp3-encoders produce small gaps of silence at the
+  beginning or end of the stream. They can automatically be detected
+  and removed.
 
 %if %build_audacious
 %package -n audacious-crossfade
@@ -42,11 +41,10 @@ Provides: beep-media-player-crossfade
 Obsoletes: beep-media-player-crossfade
 
 %description -n audacious-crossfade
-Audacious Output Plugin for Crossfading / Continuous Output
-----------------------------------------------------------------------
+This is an Audacious Output Plugin for Crossfading / Continuous Output.
 
-Features:
----------
+It features:
+
   * Crossfading
   * Continuous output
   * Gap-Killer: Some mp3-encoders produce small gaps of silence at the
