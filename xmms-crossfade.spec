@@ -1,6 +1,6 @@
 %define name xmms-crossfade
 %define version 0.3.14
-%define release %mkrel 1
+%define release %mkrel 2
 %define build_audacious 1
 
 Name:          %name
@@ -59,6 +59,7 @@ Features:
 mkdir xmms-build audacious-build
 
 %build
+%define _disable_ld_no_undefined 1
 cd xmms-build
 CONFIGURE_TOP=.. %configure2_5x --enable-player=xmms
 %make
