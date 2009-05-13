@@ -1,14 +1,14 @@
 %define name xmms-crossfade
 %define version 0.3.14
-%define release %mkrel 4
-%define build_audacious 1
+%define release %mkrel 5
+%define build_audacious 0
 
 Name:          %name
 Summary:       Crossfade output plugin for XMMS
 Version:       %version
 Release:       %release
 Group:         Sound
-License:       GPL
+License:       GPLv2+
 BuildRequires: xmms 
 BuildRequires: libxmms-devel
 BuildRequires: libsamplerate-devel
